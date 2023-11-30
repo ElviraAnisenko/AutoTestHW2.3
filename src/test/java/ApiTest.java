@@ -26,7 +26,7 @@ public class ApiTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .assertThat().body("data", equalTo("some data"));
+                .assertThat().body("data", equalTo("data"));
 
 
     }
